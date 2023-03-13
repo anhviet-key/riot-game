@@ -46,7 +46,7 @@ const Navbar = () => {
       <div
         className={`${
           active ? 'menu-nav02' : 'menu-nav01'
-        } hidden lg:flex absolute top-0 left-0 flex-row w-full h-[35vh] bg-white z-[9999] py-[24px] px-[78px]`}
+        } hidden lg:flex absolute top-0 left-0 flex-row w-full h-[45vh] bg-white z-[9999] py-[24px] px-[78px]`}
       >
         <div className="flex-[0.7]">
           <div className="w-10 h-10 flex items-center gap-1">
@@ -78,7 +78,7 @@ const Navbar = () => {
       </div>
       {active ? (
         <div
-          className="fixed top-0 left-0 right-0 bottom-0 w-full h-full bg-gray-500 opacity-40 z-[999]"
+          className="fixed top-0 left-0 right-0 bottom-0 w-full h-full bg-gray-500 opacity-40 z-[999] hidden lg:block"
           onClick={() => setActive(false)}
         />
       ) : (
