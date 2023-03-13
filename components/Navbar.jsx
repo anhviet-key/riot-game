@@ -78,7 +78,7 @@ const Navbar = () => {
       </div>
       {active ? (
         <div
-          className="fixed top-0 left-0 right-0 bottom-0 w-full h-full bg-gray-500 opacity-40 z-[999]"
+          className="fixed top-0 left-0 right-0 bottom-0 w-full h-full bg-gray-500 opacity-40 z-[999] hidden lg:block"
           onClick={() => setActive(false)}
         />
       ) : (
